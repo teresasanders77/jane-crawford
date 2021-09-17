@@ -1,0 +1,14 @@
+{
+    "name": "jane-crawford",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "scss": "node-sass --watch scss/style.scss -o css"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-sass": "^6.0.1"
+    }
+}
