@@ -1,9 +1,20 @@
-const path = require("path");
+const defaults = require("@wordpress/scripts/config/webpack.config");
 
 module.exports = {
-    entry: "./src/index.js",
-    output: {
-        filename: "bundle.js",
-        path: path.resolve(__dirname, "dist"),
+    ...defaults,
+    externals: {
+        react: "React",
+        "react-dom": "ReactDOM",
+    },
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /(node_modules)/,
+                use: {
+                    loader: "babel-loader",
+                },
+            },
+        ],
     },
 };
