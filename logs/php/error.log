@@ -1,0 +1,111 @@
+[23-Sep-2021 19:17:21 UTC] PHP Warning:  sprintf(): Too few arguments in /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[23-Sep-2021 19:17:21 UTC] PHP Stack trace:
+[23-Sep-2021 19:17:21 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/themes.php:0
+[23-Sep-2021 19:17:21 UTC] PHP   2. require_once() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/themes.php:10
+[23-Sep-2021 19:17:21 UTC] PHP   3. do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/admin.php:259
+[23-Sep-2021 19:17:21 UTC] PHP   4. WP_Hook->do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/plugin.php:470
+[23-Sep-2021 19:17:21 UTC] PHP   5. WP_Hook->apply_filters() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:327
+[23-Sep-2021 19:17:21 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:303
+[23-Sep-2021 19:17:21 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:754
+[23-Sep-2021 19:17:21 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:2988
+[23-Sep-2021 19:17:21 UTC] PHP   9. TGMPA_Bulk_Installer->run() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:3383
+[23-Sep-2021 19:17:21 UTC] PHP  10. TGMPA_Bulk_Installer->run() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:3270
+[23-Sep-2021 19:17:21 UTC] PHP  11. TGMPA_Bulk_Installer_Skin->after() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/class-wp-upgrader.php:823
+[23-Sep-2021 19:17:21 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:3650
+[23-Sep-2021 19:17:21 UTC] PHP  13. sprintf() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:152
+[23-Sep-2021 19:17:24 UTC] PHP Warning:  sprintf(): Too few arguments in /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[23-Sep-2021 19:17:24 UTC] PHP Stack trace:
+[23-Sep-2021 19:17:24 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/themes.php:0
+[23-Sep-2021 19:17:24 UTC] PHP   2. require_once() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/themes.php:10
+[23-Sep-2021 19:17:24 UTC] PHP   3. do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/admin.php:259
+[23-Sep-2021 19:17:24 UTC] PHP   4. WP_Hook->do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/plugin.php:470
+[23-Sep-2021 19:17:24 UTC] PHP   5. WP_Hook->apply_filters() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:327
+[23-Sep-2021 19:17:24 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:303
+[23-Sep-2021 19:17:24 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:754
+[23-Sep-2021 19:17:24 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:2988
+[23-Sep-2021 19:17:24 UTC] PHP   9. TGMPA_Bulk_Installer->run() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:3383
+[23-Sep-2021 19:17:24 UTC] PHP  10. TGMPA_Bulk_Installer->run() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:3270
+[23-Sep-2021 19:17:24 UTC] PHP  11. TGMPA_Bulk_Installer_Skin->after() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/class-wp-upgrader.php:823
+[23-Sep-2021 19:17:24 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:3650
+[23-Sep-2021 19:17:24 UTC] PHP  13. sprintf() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:152
+[23-Sep-2021 19:17:25 UTC] PHP Warning:  sprintf(): Too few arguments in /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[23-Sep-2021 19:17:25 UTC] PHP Stack trace:
+[23-Sep-2021 19:17:25 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/themes.php:0
+[23-Sep-2021 19:17:25 UTC] PHP   2. require_once() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/themes.php:10
+[23-Sep-2021 19:17:25 UTC] PHP   3. do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/admin.php:259
+[23-Sep-2021 19:17:25 UTC] PHP   4. WP_Hook->do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/plugin.php:470
+[23-Sep-2021 19:17:25 UTC] PHP   5. WP_Hook->apply_filters() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:327
+[23-Sep-2021 19:17:25 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:303
+[23-Sep-2021 19:17:25 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:754
+[23-Sep-2021 19:17:25 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:2988
+[23-Sep-2021 19:17:25 UTC] PHP   9. TGMPA_Bulk_Installer->run() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:3383
+[23-Sep-2021 19:17:25 UTC] PHP  10. TGMPA_Bulk_Installer->run() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:3270
+[23-Sep-2021 19:17:25 UTC] PHP  11. TGMPA_Bulk_Installer_Skin->after() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/class-wp-upgrader.php:823
+[23-Sep-2021 19:17:25 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:3650
+[23-Sep-2021 19:17:25 UTC] PHP  13. sprintf() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:152
+[23-Sep-2021 19:17:26 UTC] PHP Warning:  sprintf(): Too few arguments in /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[23-Sep-2021 19:17:26 UTC] PHP Stack trace:
+[23-Sep-2021 19:17:26 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/themes.php:0
+[23-Sep-2021 19:17:26 UTC] PHP   2. require_once() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/themes.php:10
+[23-Sep-2021 19:17:26 UTC] PHP   3. do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/admin.php:259
+[23-Sep-2021 19:17:26 UTC] PHP   4. WP_Hook->do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/plugin.php:470
+[23-Sep-2021 19:17:26 UTC] PHP   5. WP_Hook->apply_filters() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:327
+[23-Sep-2021 19:17:26 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:303
+[23-Sep-2021 19:17:26 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:754
+[23-Sep-2021 19:17:26 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:2988
+[23-Sep-2021 19:17:26 UTC] PHP   9. TGMPA_Bulk_Installer->run() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:3383
+[23-Sep-2021 19:17:26 UTC] PHP  10. TGMPA_Bulk_Installer->run() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:3270
+[23-Sep-2021 19:17:26 UTC] PHP  11. TGMPA_Bulk_Installer_Skin->after() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/class-wp-upgrader.php:823
+[23-Sep-2021 19:17:26 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:3650
+[23-Sep-2021 19:17:26 UTC] PHP  13. sprintf() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:152
+[23-Sep-2021 19:17:41 UTC] PHP Warning:  sprintf(): Too few arguments in /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/class-bulk-upgrader-skin.php on line 152
+[23-Sep-2021 19:17:41 UTC] PHP Stack trace:
+[23-Sep-2021 19:17:41 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/themes.php:0
+[23-Sep-2021 19:17:41 UTC] PHP   2. require_once() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/themes.php:10
+[23-Sep-2021 19:17:41 UTC] PHP   3. do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/admin.php:259
+[23-Sep-2021 19:17:41 UTC] PHP   4. WP_Hook->do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/plugin.php:470
+[23-Sep-2021 19:17:41 UTC] PHP   5. WP_Hook->apply_filters() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:327
+[23-Sep-2021 19:17:41 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:303
+[23-Sep-2021 19:17:41 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:754
+[23-Sep-2021 19:17:41 UTC] PHP   8. TGMPA_Bulk_Installer->bulk_install() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:2988
+[23-Sep-2021 19:17:41 UTC] PHP   9. TGMPA_Bulk_Installer->run() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:3383
+[23-Sep-2021 19:17:41 UTC] PHP  10. TGMPA_Bulk_Installer->run() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:3270
+[23-Sep-2021 19:17:41 UTC] PHP  11. TGMPA_Bulk_Installer_Skin->after() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/class-wp-upgrader.php:823
+[23-Sep-2021 19:17:41 UTC] PHP  12. TGMPA_Bulk_Installer_Skin->after() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/sesame/includes/tgm/class-tgm-plugin-activation.php:3650
+[23-Sep-2021 19:17:41 UTC] PHP  13. sprintf() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/class-bulk-upgrader-skin.php:152
+[23-Sep-2021 19:45:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/misc.php:1281) in /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/pluggable.php on line 1340
+[23-Sep-2021 19:45:46 UTC] PHP Stack trace:
+[23-Sep-2021 19:45:46 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/themes.php:0
+[23-Sep-2021 19:45:46 UTC] PHP   2. require_once() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/themes.php:10
+[23-Sep-2021 19:45:46 UTC] PHP   3. do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/admin.php:259
+[23-Sep-2021 19:45:46 UTC] PHP   4. WP_Hook->do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/plugin.php:470
+[23-Sep-2021 19:45:46 UTC] PHP   5. WP_Hook->apply_filters() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:327
+[23-Sep-2021 19:45:46 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:303
+[23-Sep-2021 19:45:46 UTC] PHP   7. TGM_Plugin_Activation->do_plugin_install() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:658
+[23-Sep-2021 19:45:46 UTC] PHP   8. TGM_Plugin_Activation->activate_single_plugin() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:818
+[23-Sep-2021 19:45:46 UTC] PHP   9. activate_plugin() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:957
+[23-Sep-2021 19:45:46 UTC] PHP  10. do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/plugin.php:698
+[23-Sep-2021 19:45:46 UTC] PHP  11. WP_Hook->do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/plugin.php:470
+[23-Sep-2021 19:45:46 UTC] PHP  12. WP_Hook->apply_filters() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:327
+[23-Sep-2021 19:45:46 UTC] PHP  13. Ocean_Extra_Theme_Wizard::install() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:303
+[23-Sep-2021 19:45:46 UTC] PHP  14. wp_safe_redirect() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/plugins/ocean-extra/includes/wizard/wizard.php:45
+[23-Sep-2021 19:45:46 UTC] PHP  15. wp_redirect() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/pluggable.php:1448
+[23-Sep-2021 19:45:46 UTC] PHP  16. header() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/pluggable.php:1340
+[23-Sep-2021 19:45:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/misc.php:1281) in /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/pluggable.php on line 1343
+[23-Sep-2021 19:45:46 UTC] PHP Stack trace:
+[23-Sep-2021 19:45:46 UTC] PHP   1. {main}() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/themes.php:0
+[23-Sep-2021 19:45:46 UTC] PHP   2. require_once() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/themes.php:10
+[23-Sep-2021 19:45:46 UTC] PHP   3. do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/admin.php:259
+[23-Sep-2021 19:45:46 UTC] PHP   4. WP_Hook->do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/plugin.php:470
+[23-Sep-2021 19:45:46 UTC] PHP   5. WP_Hook->apply_filters() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:327
+[23-Sep-2021 19:45:46 UTC] PHP   6. TGM_Plugin_Activation->install_plugins_page() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:303
+[23-Sep-2021 19:45:46 UTC] PHP   7. TGM_Plugin_Activation->do_plugin_install() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:658
+[23-Sep-2021 19:45:46 UTC] PHP   8. TGM_Plugin_Activation->activate_single_plugin() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:818
+[23-Sep-2021 19:45:46 UTC] PHP   9. activate_plugin() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/themes/oceanwp/inc/plugins/class-tgm-plugin-activation.php:957
+[23-Sep-2021 19:45:46 UTC] PHP  10. do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-admin/includes/plugin.php:698
+[23-Sep-2021 19:45:46 UTC] PHP  11. WP_Hook->do_action() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/plugin.php:470
+[23-Sep-2021 19:45:46 UTC] PHP  12. WP_Hook->apply_filters() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:327
+[23-Sep-2021 19:45:46 UTC] PHP  13. Ocean_Extra_Theme_Wizard::install() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/class-wp-hook.php:303
+[23-Sep-2021 19:45:46 UTC] PHP  14. wp_safe_redirect() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-content/plugins/ocean-extra/includes/wizard/wizard.php:45
+[23-Sep-2021 19:45:46 UTC] PHP  15. wp_redirect() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/pluggable.php:1448
+[23-Sep-2021 19:45:46 UTC] PHP  16. header() /Users/teresaloafman/Local Sites/janecrawford/app/public/wp-includes/pluggable.php:1343
