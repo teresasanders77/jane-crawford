@@ -3781,7 +3781,7 @@ section.detail-contact {
 	text-align: center;
 }
 .site-generator .inline-social-icons ul li a::before {
-    color: rgb(0, 0, 0);
+    color: #fff;
 }
 .site-footer input[type="text"], 
 .site-footer input[type="email"], 
@@ -4688,6 +4688,9 @@ input[type="submit"],
 .widget-title::before,
 .page-title::before {
 	background-color: #192537;
+}
+.back-to-top a {
+    background-color: #f5cebe;
 }
 .site-footer input[type="reset"]:hover, 
 .site-footer input[type="button"]:hover, 
